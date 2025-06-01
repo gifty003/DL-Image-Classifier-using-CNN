@@ -11,58 +11,36 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 ### STEP 1: 
+Classify handwritten digits (0–9) using the MNIST dataset.
 
-Write your own steps
 
 ### STEP 2: 
-
+Import required libraries such as TensorFlow/Keras, NumPy, and Matplotlib. Load the MNIST dataset using keras.datasets.mnist.load_data().
 
 
 ### STEP 3: 
+Normalize the image pixel values (scale from 0-255 to 0-1). Reshape the images to match CNN input shape.
+
 
 
 
 ### STEP 4: 
-
+Initialize a Sequential model. Add convolutional layers with activation (ReLU), followed by pooling layers. Flatten the output and add Dense layers. Use a softmax layer for classification.
 
 
 ### STEP 5: 
-
+Compile the model with an optimizer (e.g., Adam), loss function (e.g., categorical crossentropy), and metrics (accuracy). Train the model using training data and validate using validation split or test data.
 
 
 ### STEP 6: 
+Evaluate the model on test data and print accuracy. Plot training/validation loss and accuracy curves. Optionally, display a confusion matrix or sample predictions.
 
 
 
 
+### Name:ONTEDDU SIRISHA REDDY
 
-## PROGRAM
-
-### Name:
-
-### Register Number:
-
-```python
-class CNNClassifier(nn.Module):
-    def __init__(self, input_size):
-        super(CNNClassifier, self).__init__()
-        #Include your code here
-
-    def forward(self, x):
-        #Include your code here
-
-
-
-# Initialize the Model, Loss Function, and Optimizer
-model =
-criterion =
-optimizer =
-
-def train_model(model, train_loadr, num_epochs=10):
-    #Include your code here
-
-```
-
+### Register Number:212222230103
 ### OUTPUT
 
 ## Training Loss per Epoch
